@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5f43198-8fce-492e-8979-ed2da2ed4f33" name="Default Changelist" comment="" />
+    <list default="true" id="d5f43198-8fce-492e-8979-ed2da2ed4f33" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/UAS/latihan.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LDA.py" beforeDir="false" afterPath="$PROJECT_DIR$/LDA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ORL_face.py" beforeDir="false" afterPath="$PROJECT_DIR$/ORL_face.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PCA.py" beforeDir="false" afterPath="$PROJECT_DIR$/PCA.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +21,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1YKPtHoqAeXUapgnHwky89ZKDmO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -155,11 +165,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.app" />
       <item itemvalue="Python.BAB_II_PENGUKURAN_KEMIRIPAN" />
+      <item itemvalue="Python.LDA" />
       <item itemvalue="Python.ORL_face" />
       <item itemvalue="Python.PCA" />
-      <item itemvalue="Python.LDA" />
+      <item itemvalue="Python.app" />
     </list>
     <recent_temporary>
       <list>
@@ -197,22 +207,22 @@
       <screen x="0" y="0" width="1280" height="720" />
     </state>
     <state x="421" y="116" key="FileChooserDialogImpl/0.0.1280.720@0.0.1280.720" timestamp="1582689325601" />
-    <state width="1259" height="204" key="GridCell.Tab.0.bottom" timestamp="1587320292412">
+    <state width="1259" height="422" key="GridCell.Tab.0.bottom" timestamp="1587533580911">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587320292412" />
-    <state width="1259" height="204" key="GridCell.Tab.0.center" timestamp="1587320292412">
+    <state width="1259" height="422" key="GridCell.Tab.0.bottom/0.0.1280.720@0.0.1280.720" timestamp="1587533580911" />
+    <state width="1259" height="422" key="GridCell.Tab.0.center" timestamp="1587533580911">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1587320292412" />
-    <state width="1259" height="204" key="GridCell.Tab.0.left" timestamp="1587320292412">
+    <state width="1259" height="422" key="GridCell.Tab.0.center/0.0.1280.720@0.0.1280.720" timestamp="1587533580911" />
+    <state width="1259" height="422" key="GridCell.Tab.0.left" timestamp="1587533580911">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1587320292412" />
-    <state width="1259" height="204" key="GridCell.Tab.0.right" timestamp="1587320292412">
+    <state width="1259" height="422" key="GridCell.Tab.0.left/0.0.1280.720@0.0.1280.720" timestamp="1587533580911" />
+    <state width="1259" height="422" key="GridCell.Tab.0.right" timestamp="1587533580911">
       <screen x="0" y="0" width="1280" height="720" />
     </state>
-    <state width="1259" height="204" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1587320292412" />
+    <state width="1259" height="422" key="GridCell.Tab.0.right/0.0.1280.720@0.0.1280.720" timestamp="1587533580911" />
     <state x="336" y="92" width="739" height="606" key="find.popup" timestamp="1587231002757">
       <screen x="0" y="0" width="1280" height="720" />
     </state>

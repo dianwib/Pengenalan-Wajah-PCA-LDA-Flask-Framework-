@@ -40,6 +40,18 @@ class LDA(object):
         self.wFid=np.transpose(self.descending_eigen_vector[:,0:jumlah_kelas-1])
         self.proyeksi=self.get_proyeksi(self.wFid,self.proyeksi_pca_baru)
         self.bobot_train= self.get_bobot(data_train, self.proyeksi)
+        print("\nLDA","=="*30)
+        print("proyeksi lama",self.proyeksi_pca_baru.shape)
+        print("input LDA",self.input_LDA.shape)
+        print("rata per kelas",self.rata_per_kelas.shape)
+        print("rata semua kelas",self.rata_total_kelas.shape)
+        print("Sb",self.Sb.shape)
+        print("Sw",self.Sw.shape)
+        print("eva",self.eigen_value.shape)
+        print("eve",self.eigen_vector.shape,self.descending_eigen_vector.shape)
+        print("wFid",self.wFid.shape)
+        print("proyeksi",self.proyeksi.shape)
+        print("bobot",self.bobot_train.shape)
 
     def get_proyeksi_pca_baru(self,input_proyeksi,jumlah_data,jumlah_kelas):
         proyeksi_pca_baru=input_proyeksi[:,0:jumlah_data-jumlah_kelas]

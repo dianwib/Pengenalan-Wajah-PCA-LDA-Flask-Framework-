@@ -27,8 +27,8 @@ data=np.array(data)
 # #PISAH DATA TRAIN DAN TESTING
 # DATA TRAIN ukuran 40 x ukuran data training (2,3,6,7,8,10)
 
-list_data_train=[0,1,2,3,4,5]
-list_data_test=[6,7,8,9]
+list_data_train=[0,1,2]
+list_data_test=[3,4,5,6,7,8,9]
 #split data train dan testing
 matrix_list_data_test=np.delete(data,[list_data_train],1)
 matrix_list_data_train=np.delete(data,[list_data_test],1)

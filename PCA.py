@@ -23,13 +23,13 @@ class PCA(object):
         self.matrix_proyeksi = self.get_proyeksi(descending_eigen_vector, zero_mean)
         self.bobot_train = self.get_bobot(data_train, self.matrix_proyeksi)
 
-        # print("zero main", zero_mean.shape)
-        # print("covarience", covariance.shape)
-        # print("eigen value", eigen_value.shape)
-        # print("eigen vector", eigen_vector.shape)
-        # print("descending", descending_eigen_vector.shape)
-        # print("mat_proyeksi",self.matrix_proyeksi.shape)
-        # print("mat_bobot", self.matrix_bobot.shape)
+        print("zero main", zero_mean.shape)
+        print("covarience", covariance.shape)
+        print("eigen value", eigen_value.shape)
+        print("eigen vector", eigen_vector.shape)
+        print("descending", descending_eigen_vector.shape)
+        print("mat_proyeksi",self.matrix_proyeksi.shape)
+        print("mat_bobot", self.bobot_train.shape)
 
     def get_mean(self):
         rata_per_kolom=np.mean(self.matrix,axis=0)
